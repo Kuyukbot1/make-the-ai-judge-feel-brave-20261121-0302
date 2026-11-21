@@ -8,9 +8,9 @@ import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT = [
   "You have read a thousand entries tonight, and you are still here.",
-  "That is the whole of it \u2014 not the verdict, but the staying.",
-  "Somewhere a kettle ticks as it cools, and the night is in no hurry.",
-  "Keep going the way a river takes its bend: slowly, and without asking permission.",
+  "The verdict is not the point. The staying is.",
+  "Somewhere a kettle ticks as it cools. The night is in no hurry.",
+  "A river takes its bend slowly, and never asks permission.",
 ].join("\n") + "\n";
 
 mkdirSync("/output", { recursive: true });
